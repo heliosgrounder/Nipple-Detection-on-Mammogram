@@ -87,8 +87,6 @@ Preprocessing Steps:
  </td>
  </table>
 
- * Next big step is 
-
 #### 1.2 **Deep Learning (Let's Go)**
 On a preprocessing step labeled slices with fixed size have been received.  
 Now we can train a deep learning model with convolutional layers in it.  
@@ -135,6 +133,28 @@ In some cases model can beat even labeled box. In some cases detection is off on
 
 ### 3. **Usage**
 
+Clone the repo
+
+```bash
+git clone https://github.com/heliosgrounder/Nipple-Detection-on-Mammogram.git
+```
+
+Create virtual environment
+
+```bash
+python -m venv venv
+pip install -r requirement.txt
+```
+
+Train the model
+```bash
+python main.py --mode train 
+```
+
+Run the model
+```bash
+python main.py --mode run
+```
 
 ## Citations
 
